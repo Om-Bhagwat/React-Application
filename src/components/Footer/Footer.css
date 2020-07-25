@@ -1,0 +1,29 @@
+.footer_first{
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(102,186,214,1) 0%, rgba(0,212,255,1) 100%, rgba(6,15,25,1) 100%);
+    font-size:1.5rem;
+}
+.footer_second{
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(102,186,214,1) 0%, rgba(0,76,92,1) 100%, rgba(6,15,25,1) 100%);
+}
+
+.footer_first > div{
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+}
+.input_type > div{
+    margin:5px;
+}
+.input_type_message{
+    height:150px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons >i{
+    margin:5px;
+}

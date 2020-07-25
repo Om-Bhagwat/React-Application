@@ -1,0 +1,75 @@
+.yamato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.slider{
+    display:block;
+    width:85%;
+    height:66%;
+    background-color: green;
+    overflow:hidden;
+    position:absolute;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(151, 151, 221);
+}
+.slider > *{
+    position: absolute;
+    display: block;
+    width:100%;
+    height:100%;
+    background-color: blue;
+    animation:slide 12s infinite; 
+}
+.slide:nth-child(1){
+    left:0%;
+    animation-delay: -1s;
+    background-size: cover;
+    background-position: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(88,103,119,1) 0%, rgba(191,218,227,1) 0%, rgba(0,212,255,1) 100%);
+    /*background-image: url(https://images.unsplash.com/photo-1485906441524-ed91f8315b4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+}
+.slide:nth-child(2){
+    animation-delay: 2s;
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(191,218,227,1) 0%, rgba(44,81,120,1) 100%, rgba(0,212,255,1) 100%);
+    /*background-image: url(https://images.unsplash.com/photo-1590214074323-fd5649874bee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+    background-size: cover;
+    background-position: center;
+}
+.slide:nth-child(3){
+    animation-delay: 5s;
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(191,218,227,1) 0%, rgba(5,74,147,1) 100%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+    /*background-image: url(https://images.unsplash.com/photo-1593011458096-fcbd150f8b1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+}
+.slide:nth-child(4){
+    left:0%;
+    animation-delay: 8s;
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(191,218,227,1) 0%, rgba(6,15,25,1) 100%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+    /*background-image: url(https://images.unsplash.com/photo-1594306061528-1e3cf210e1be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+}
+.slide p{
+    font-family: Comfortaa;
+    font-size:70px;
+    text-align: center;
+    display: inline-block;
+    width:100%;
+    margin-top:340px;
+    color:black;
+}
+
+@keyframes slide {
+    0%{left:100%;width:100%;}
+    5%{left:0%;}
+    25%{left:0%;}
+    30%{left:-100%;width:100%;}
+    30.0001%{left:-100%;width:0%;}
+    100%{left:100%;width:0%;}
+}
