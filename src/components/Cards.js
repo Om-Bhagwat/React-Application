@@ -8,7 +8,7 @@ function Cards() {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div className="flex-container fdt">
+        <div className="flex-container fdt" data-aos="fade-up">
             <div>
                 <div class="card-container asq">
                     <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />

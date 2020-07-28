@@ -17,7 +17,7 @@ function CoverPic() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

@@ -16,6 +16,10 @@
 .input_type > div{
     margin:5px;
 }
+.input_type_1{
+    border-radius:5px;
+
+}
 .input_type_message{
     height:150px;
 }

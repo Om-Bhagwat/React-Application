@@ -1,8 +1,10 @@
 import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function Cardsn() {
     return (
-        <div className="flex-container fd">
+        <div className="flex-container fd" data-aos="fade-up">
             <div>
                 <div class="card-container asq">
                     <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />

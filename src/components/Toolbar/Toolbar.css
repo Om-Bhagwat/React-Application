@@ -1,5 +1,6 @@
 .toolbar{
-    background-color:rgb(83, 83, 158);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,84,138,1) 49%, rgba(0,212,255,1) 100%);
     width:100%;
     margin:0px;
     height:66px;
@@ -20,11 +21,11 @@
 .toolbar_logo a{
     color:white;
     text-decoration: none;
-    font-size:1.5rem;
+    font-size:1.7rem;
 }
 
 .spacer{
-    flex:0.5;
+    flex:0.47;
 }
 
 .toolbar_navigation-items ul{
@@ -35,6 +36,7 @@
 }
 .toolbar_navigation-items li{
     padding:0 0.5rem;
+    font-size: 1.2rem;
 }
 .toolbar_navigation_items a{
     color:white;

@@ -23,6 +23,12 @@ function App() {
         <div></div>
       </div>
       <SliderI />
+      <div className="team" id="team_s">
+        <h3>Team</h3>
+      </div>
+      <div className="gallery_line">
+        <div></div>
+      </div>
       <Cards />
       <Cardsn />
       <CardsE />
